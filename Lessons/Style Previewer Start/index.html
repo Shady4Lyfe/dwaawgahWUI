@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Style Previewer</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+
+  <h1>Style Previewer</h1>
+
+  <!-- Preview Area -->
+  <div id="preview">
+    AaBbCc
+  </div>
+
+  <!-- Input Area -->
+  <div>
+    <p>Text: <input id="text" type="text" value="AaBbCc"></p>
+    <p>Font-Size: <input id="fontSize" type="number" value="64"></p>
+    <p>Font-Family:
+      <select id="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Papyrus">Papyrus</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+      </select>
+    </p>
+    <p>Background Color: <input id="bgColor" type="color" value="maroon">
+      Text Color: <input id="textColor" type="color" value="#FFFFFF"></p>
+    
+    <p><input id="bold" type="checkbox">Bold <input id="italic" type ="checkbox">Italic</p>
+    
+    <p>
+      <input type="radio" name="align" value="left">Left
+      <input type="radio" name="align" value="center">Center
+      <input type="radio" name="align" value="right">Right
+    </p>
+  </div>
+
+  <!--Load JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

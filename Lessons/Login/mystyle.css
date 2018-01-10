@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+#loginBox {
+  width: 400px;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#loginBox input {
+  color: lightgrey;
+  font-style: italic;
+}
+
+#loginBox input:focus {
+  color: black;
+  font-style: normal;
+}
+
+

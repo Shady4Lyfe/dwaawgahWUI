@@ -1,0 +1,20 @@
+html {
+    background-color: grey;
+}
+
+body {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 40px 100px;
+}
+
+#preview {
+    background-color: maroon;
+    color: white;
+    width: 600px;
+    font-size: 64px;
+    font-family: Arial;
+    text-align: center;
+    padding: 100px 50px;
+}

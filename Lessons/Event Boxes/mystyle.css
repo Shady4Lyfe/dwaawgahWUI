@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+div {
+  width: 150px;
+  padding: 75px 0px;
+  background-color: blue;
+  color: white;
+  float: left;
+  margin: 25px 25px 0px 0px;
+}
+
