@@ -1,0 +1,12 @@
+body  {
+  background-color: dimgrey;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  background-color: aqua;
+  width: 400px;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
